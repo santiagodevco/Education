@@ -2,7 +2,7 @@
 Framework enfocado en la educación para las instituciones escolares de Latinoamérica
 
 Por la situacion de pandemia quedo en claro la carencia de musculo tecnologico de las instituciones escolares en LATAM. 
-Esto me motivo a la creación de un framework de uso facil y rapido para que los desarrolladores que trabajer con estas
+Esto me motivo a la creación de un framework de uso facil y rapido para que los desarrolladores que trabajen con estas
 instuciones logren gestionar de forma rapida estas plataformas que son sumamente importantes para el futuro educativo
 de los Latinoamericanos
 
@@ -10,6 +10,8 @@ ________________________________________________________________________________
 
 El proyecto Education esta en fase pre-Alfa por lo que no se recomienda que se usen los archivos que se vayan subiendo hasta que 
 se la versión sea la 1.0.0. Ya que durante las fases alfa y beta estaran revisión y estaran sujetos a cambios.
+
+Pero si desea usar estos archivos puede hacerlo libremente bajo su responsabilidad, ya que estos se estaran actualizando.
 
 _____________________________________________________________________________________________________________________________________________________________
 
