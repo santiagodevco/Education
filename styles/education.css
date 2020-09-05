@@ -140,4 +140,73 @@ h4 {
 .events__title {
   text-align: center;
   margin: 15px;
-  font-size: 16px; }
+  font-size: 16px;
+  border-top: 2px solid #000000;
+  margin-top: 40px; }
+
+.events__container {
+  padding: 0;
+  margin: 0 auto;
+  width: 300px;
+  height: 280px;
+  overflow: hidden;
+  border-radius: 4px; }
+  .events__container--image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%; }
+
+.events__desc {
+  width: 300px;
+  margin: 0 auto; }
+  .events__desc--title {
+    margin: 18px auto 0px auto;
+    text-align: center; }
+  .events__desc--contain {
+    margin: 10px 0px; }
+
+.activities__title {
+  text-align: center;
+  margin: 15px;
+  font-size: 16px;
+  margin-top: 50px; }
+
+.sport__container {
+  display: flex;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 125px;
+  height: 125px;
+  overflow: hidden;
+  transition: 1s; }
+  .sport__container--image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%; }
+
+.sport__container.a {
+  left: 0; }
+
+.sport__container.b {
+  right: 0; }
+
+.activities__sport {
+  display: block;
+  width: 290px;
+  height: 130px;
+  margin: 0 auto;
+  position: relative; }
+
+.activities__sport:hover .sport__container.a {
+  left: calc(50% + 10px); }
+
+.activities__sport:hover .sport__container.b {
+  right: calc(50% + 10px); }
+
+.sport__title {
+  position: absolute;
+  bottom: -45px;
+  right: 0;
+  left: 0;
+  text-align: center; }
