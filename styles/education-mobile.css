@@ -1,0 +1,43 @@
+/*-----------------------------------------------------------*/
+/*         configuracion responsive del education            */
+/*-----------------------------------------------------------*/
+@media screen and (min-width: 425px) {
+  /*-------------------header-------------------*/
+  .header__container {
+    height: 120px; }
+    .header__container--image {
+      width: 80%; }
+  .list__menu {
+    margin: 30px 0px 0px 150px; } }
+
+@media screen and (min-width: 760px) {
+  /*-------------------header-------------------*/
+  .header__container {
+    height: 90px;
+    justify-content: end; }
+    .header__container--image {
+      width: 40%; }
+  .header-list {
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    margin-right: 20px; }
+  .list__menu {
+    margin: 0px;
+    margin-top: -65px;
+    border-radius: 0px; } }
+
+@media screen and (min-width: 1022px) {
+  /*-------------------header-------------------*/
+  .header__container--image {
+    width: 30%; } }
+
+@media screen and (min-width: 1278px) {
+  /*-------------------header-------------------*/
+  .header__container {
+    height: 70px; }
+    .header__container--image {
+      width: 20%;
+      margin-left: 20px; }
+  .list__menu {
+    margin-top: -55px; } }
